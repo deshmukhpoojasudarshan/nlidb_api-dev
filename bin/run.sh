@@ -1,0 +1,1 @@
+uvicorn common.app:app --env-file .env --reload --app-dir src  --port 10001 --host 0.0.0.0

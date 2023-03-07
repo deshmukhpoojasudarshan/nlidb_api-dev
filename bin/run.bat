@@ -1,0 +1,1 @@
+uvicorn app.main:app --env-file .env --reload --app-dir app  --port 8000 --host 0.0.0.0
